@@ -1,12 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaBook, FaLaptop, FaClipboardList, FaUserAlt, FaUsers, FaAward, FaBriefcase, FaDollarSign } from "react-icons/fa";
+import { FaBook, FaLaptop, FaClipboardList, FaUserAlt, FaUsers, FaAward, FaBriefcase, FaDollarSign, FaProjectDiagram, FaComments } from "react-icons/fa";
 
 // Steps Data
 const steps = [
   { label: "Theory", icon: <FaBook size={36} />, color: "bg-red-500" },
   { label: "Practicals", icon: <FaLaptop size={36} />, color: "bg-blue-500" },
   { label: "Assignments", icon: <FaClipboardList size={36} />, color: "bg-green-500" },
+  { label: "Projects", icon: <FaProjectDiagram size={36} />, color: "bg-orange-500" },
+  { label: "Mock Interviews", icon: <FaComments size={36} />, color: "bg-cyan-500" },
   { label: "Resume Prep", icon: <FaClipboardList size={36} />, color: "bg-pink-500" },
   { label: "Interviews", icon: <FaUserAlt size={36} />, color: "bg-teal-500" },
   { label: "Certification", icon: <FaAward size={36} />, color: "bg-yellow-500" },
