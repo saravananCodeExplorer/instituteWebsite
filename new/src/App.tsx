@@ -12,11 +12,14 @@ import Contact from './Component/pages/Contact';
 import Footer from './Footer/Footer';
 import PlacementPartners from './Component/pages/PlacementPartners';
 
+
+
 function App() {
   return (
     <BrowserRouter>
       <TopBar />
       <Navbar />
+     
       <Routes>
         <Route path="/" element={<HomeComponent />} />
         <Route path="/courses" element={<Courses />} />

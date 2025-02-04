@@ -120,10 +120,12 @@ const courses: Course[] = [
 const Courses: React.FC = () => {
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
-      <h1 className="text-3xl font-bold text-center mb-8">Course Catalog</h1>
+      <h2 className="text-4xl font-extrabold text-center text-blue-700 mb-12">
+       Our Courses
+      </h2>
       {courses.map((category, index) => (
         <div key={index} className="mb-10">
-          <h2 className="text-2xl font-semibold mb-4">{category.category}</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-center">{category.category}</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {category.courses.map((course, idx) => (
               <div
